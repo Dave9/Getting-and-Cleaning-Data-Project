@@ -1,2 +1,2 @@
 # Getting-and-Cleaning-Data-Project
-Contains files for course project submission
+Contains required and some additional files for course project submission
