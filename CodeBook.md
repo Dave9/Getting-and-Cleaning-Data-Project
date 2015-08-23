@@ -72,7 +72,11 @@ The following manual steps were performed to acquire and stage the source data. 
 
 The new variable names are mapped from the original source variable names (features.txt) as follows using the approach described above.  Note that the original name containing "BodyBody" was assumed to be in error and replaced with one "Body".  Subject Id and Activity Name were copied or transformed from their source files as described above.  A Source.File name (test or train) was added to the original source files before they were merged to maintain some tracability to the source file data rows, but this is of course not present in the final summarized output file.
 
-Further description of the variable names is not provided since the new names are descriptive on their own.  Analysts using this data should consult the original source information (see the appendix of this document) for details about their meaning. 
+###Units of Measure
+
+Note that all measurement variables (linear acceleration and angular velocity) were *normalized and bounded within [-1,1].*  Hence the unit is percent variation from the normals for this data set.  See appendix for details.
+
+Further descriptions for each variable names is not provided since the new names are descriptive on their own.  Analysts using this data should consult the original source information (see the appendix) for details about their meaning and may require some subject matter knowledge.
 
 ###Abbreviations Used in Variable Names
 
