@@ -74,7 +74,7 @@ The new variable names are mapped from the original source variable names (featu
 
 ###Units of Measure
 
-Note that all measurement variables (linear acceleration and angular velocity) were *normalized and bounded within [-1,1].*  Hence the unit is percent variation from the normals for this data set.  See appendix for details.
+Note that all measurement variables (linear acceleration and angular velocity) were *normalized and bounded within [-1,1].*  See appendix for details.
 
 Further descriptions for each variable names is not provided since the new names are descriptive on their own.  Analysts using this data should consult the original source information (see the appendix) for details about their meaning and may require some subject matter knowledge.
 
