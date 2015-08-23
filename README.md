@@ -8,7 +8,7 @@ This repository contains 5 files:
 * HARavg.txt - Output tidy data set containing the average (mean) of each mean and standard deviation variable grouped by the Subject Id and Activity Name.  180 rows X 68 columns.  This file is included in the Github Repo for convenience, but was also submitted directly for the course project assignment as required.  See details in the CodeBook.
 * HARavg.csv - This *optional* file contains the same tidy set as HARavg.txt but in CSV format ready to read into an Excel spreadsheet for easier visual inspection (e.g., set column widths or sort data).  Contains one additional unnamed column of "row names" (i.e., the row numbers 1:180).
 
-#Key Decisions
+##Key Decisions
 
 1. **Data Submission Format**  The tidy data set (HARavg.txt) is provided in *wide format*.  Either a wide or a long form of the data is acceptable if it meets the tidy data principles. This data set is tidy because it contains each identifier (2) and variable measured (66) in 68 separate columns and each different summarized observation (180) of those variables is in a different row (by subject and activity). It also includes a header row with understandable column names. The text file is difficult to view visually on screen unformatted. You may prefer to open it or CSV version of it in Excel or another viewer.
 
