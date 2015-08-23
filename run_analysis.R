@@ -16,10 +16,10 @@ run_analysis <- function() {
     # BEGIN MANUAL STEPS
     #
     #Setup Project Directories
-    # dir.create("~/dmiller personal/coursera/Getting and Cleaning Data/Course Project")
-    # setwd("~/dmiller personal/coursera/Getting and Cleaning Data/Course Project")
+    # dir.create("~/coursera/Getting and Cleaning Data/Course Project")
+    # setwd("~/coursera/Getting and Cleaning Data/Course Project")
     # if (!file.exists("UCI HAR Dataset")) { dir.create("./UCI HAR Dataset") }
-    # setwd("~/dmiller personal/coursera/Getting and Cleaning Data/Course Project/UCI HAR Dataset")
+    # setwd("~/coursera/Getting and Cleaning Data/Course Project/UCI HAR Dataset")
     #
     #Download Project Data Files
     # fileURL <- "http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.zip"
