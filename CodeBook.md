@@ -2,7 +2,7 @@
 
 ##Study Design and Data Sources
 
-This study is based on data collected in a previous study called *Human Activity Recognition Using Smartphones Dataset* based on experiments conducted with a group of 30 volunteers who performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) while wearing a smartphone (Samsung Galaxy S II) on the waist.  The data used for this study represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description of the original study and the data is available at the site:
+This study is based on data collected in a previous study called *Human Activity Recognition Using Smartphones* based on experiments conducted with a group of 30 volunteers who performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) while wearing a smartphone (Samsung Galaxy S II) on the waist.  The data used for this study represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description of the original study and the data is available at the site:
 
 * http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
@@ -12,7 +12,7 @@ The data for this study are available for download at:
 
 The descriptive information for the source data is *reproduced in the appendix of this CodeBook.*  You must be familiar with the original source data (or review the appendix) in order to understand the transformations and summarizations performed in this study.
 
-For the purposed of this study, only the source mean and standard deviation results will be used.  That data will be further summarized over the individual test subjects and the activities they performed.  This CodeBook describes how the original data was selected and transformed to prepare for the next analysis phase of this study.
+For the purpose of this study, only the source mean and standard deviation results will be used.  That data will be further summarized over the individual test subjects and the activities they performed.  This CodeBook describes how the original data was selected and transformed to prepare for the next analysis phase of this study.
 
 ##Data Acquisition and Staging
 
@@ -46,8 +46,7 @@ The following manual steps were performed to acquire and stage the source data. 
     
  d. IMPORTANT:
      Set working directory to location of unpacked source files
-     before running this script. For me that is:
-     setwd("~/coursera/Getting and Cleaning Data/Course Project/UCI HAR Dataset")
+     before running this script.
 
 ##Data Cleansing Steps
 
@@ -71,9 +70,18 @@ The following manual steps were performed to acquire and stage the source data. 
 
 ##Description of Variables
 
-The new variable names are mapped from the original source variable names (features.txt) as follows using the approach described above.  Note that the original name containing "BodyBody" was assumed to be in error and replaced with one "Body".  Subject Id and Activity Name were copied or transformed from their source files as described above.  A Source.File name (test or train) was added to the original source files before they were merged to maintain some tracability to the source file data rows, but this is of course not present in the final summarized output file.  **TDS** means *Time Data Series* and **FDS** means *Frequency Data Series* as described above.
+The new variable names are mapped from the original source variable names (features.txt) as follows using the approach described above.  Note that the original name containing "BodyBody" was assumed to be in error and replaced with one "Body".  Subject Id and Activity Name were copied or transformed from their source files as described above.  A Source.File name (test or train) was added to the original source files before they were merged to maintain some tracability to the source file data rows, but this is of course not present in the final summarized output file.
 
 Further description of the variable names is not provided since the new names are descriptive on their own.  Analysts using this data should consult the original source information (see the appendix of this document) for details about their meaning. 
+
+###Abbreviations Used in Variable Names
+
+|**Abbreviation**|**Description**|
+|TDS|Time Data Series|
+|FDS|Frequency Data Series|
+|X|Indicates component measurement of motion on the X axis|
+|Y|Indicates component measurement of motion on the Y axis|
+|Z|Indicates component measurement of motion on the Z axis|
 
 ##Variable Name Mapping
 
