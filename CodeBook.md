@@ -76,7 +76,8 @@ Further description of the variable names is not provided since the new names ar
 
 ###Abbreviations Used in Variable Names
 
-|**Abbreviation**|**Description**|
+|Abbreviation|Description|
+|------------|-----------|
 |TDS|Time Data Series|
 |FDS|Frequency Data Series|
 |X|Indicates component measurement of motion on the X axis|
