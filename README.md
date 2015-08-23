@@ -20,9 +20,7 @@ This repository contains 5 files:
 
 5. **Variable Name Replacement**  During my data analysis, I chose to extract all the variable names into an Excel spreadsheet and work with understanding and renaming them in Excel.  I then used only the selected new names in the R script to rename those source variables.  While it would have been possible to write detailed R commands to "automatically convert" the source names into my new names, I do not believe this is the best approach for variable names which require careful human review and decisions outside the programming environment.  Data, typically millions or billions of rows, must be programmatically altered in an R script when required.  Variable names, under 600 in this case, can be easily manipulated outside the script and shared with other non programmer subject matter experts.  The final instructions in the R script clearly show how the selected variables were renamed.  The Code Book further describes those variables and their derivation.
 
-6. **The Code Book**
-
-Finally, please do review the included Code Book.  It is the most important document which provides specific details about the source data and how it was transformed and used to produce the output data set.
+6. **The Code Book**  Please do review the included Code Book.  It is the most important document which provides specific details about the source data and how it was transformed and used to produce the output data set.
 
 
 *And finally, thanks for reviewing my Getting and Cleaning Data course project submission!*
